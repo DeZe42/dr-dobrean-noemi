@@ -14,4 +14,4 @@ jobs:
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_DR_DOBREANN_NOEMI }}'
-          projectId: dr-dobreann-noemi
+          projectId: dr-dobrean-noemi
