@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "dist/dr-dobrean-noemi/browser",
+    "public": "dist/dr-dobrean-noemi",
     "ignore": [
       "firebase.json",
       "**/.*",
