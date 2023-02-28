@@ -1,5 +1,7 @@
 name: Build and Deploy to Firebase
 
+export GOOGLE_APPLICATION_CREDENTIALS="/public/google-credentials.json"
+
 on:
   push:
     branches:
@@ -23,4 +25,4 @@ jobs:
         with:
           args: deploy --only hosting
         env:
-          FIREBASE_TOKEN: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_DR_DOBREANN_NOEMI }}
+          FIREBASE_TOKEN: GOOGLE_APPLICATION_CREDENTIALS
