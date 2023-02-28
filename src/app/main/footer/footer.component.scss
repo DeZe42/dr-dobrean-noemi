@@ -1,0 +1,37 @@
+:host {
+  margin-top: auto;
+}
+
+footer {
+
+  .footer-wrapper {
+    display: flex;
+    flex-direction: column;
+    background-color: pink;
+
+    .footer-container {
+      display: flex;
+      width: 100%;
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 24px;
+
+      .column {
+        display: flex;
+        flex-direction: column;
+
+        &:first-child {
+          margin-right: auto;
+        }
+      }
+    }
+
+  }
+  .copyright {
+    display: flex;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 12px 0;
+    background-color: white;
+  }
+}
