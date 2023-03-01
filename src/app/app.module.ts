@@ -7,8 +7,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HomeComponent } from './home/home.component';
 import { HeaderComponent } from "./main/header/header.component";
 import { FooterComponent } from "./main/footer/footer.component";
-import {MatIconModule} from "@angular/material/icon";
-import {HttpClientModule} from "@angular/common/http";
+import { MatIconModule } from "@angular/material/icon";
+import { HttpClientModule } from "@angular/common/http";
 
 @NgModule({
   declarations: [

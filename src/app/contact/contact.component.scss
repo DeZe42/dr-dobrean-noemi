@@ -1,0 +1,36 @@
+section {
+  display: flex;
+
+  .contact-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+
+    .contact-container {
+      display: flex;
+      justify-content: space-between;
+
+      form {
+        display: flex;
+        flex-direction: column;
+        margin-right: 24px;
+
+        .row {
+          display: flex;
+          gap: 24px;
+        }
+
+        mat-form-field {
+          margin-bottom: 16px;
+        }
+      }
+
+      .informations {
+        display: flex;
+        flex-direction: column;
+      }
+    }
+  }
+}
